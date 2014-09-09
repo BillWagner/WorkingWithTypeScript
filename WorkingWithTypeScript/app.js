@@ -7,9 +7,8 @@
         this.span.innerText = new Date().toUTCString();
     }
     Greeter.prototype.start = function () {
-        var _this = this;
         this.timerToken = setInterval(function () {
-            return _this.span.innerHTML = new Date().toUTCString();
+            this.span.innerHTML = new Date().toUTCString();
         }, 500);
     };
 
