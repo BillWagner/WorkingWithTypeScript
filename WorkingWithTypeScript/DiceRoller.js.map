@@ -1,1 +1,1 @@
-{"version":3,"file":"DiceRoller.js","sourceRoot":"","sources":["DiceRoller.ts"],"names":["DiceRoller","DiceRoller.constructor"],"mappings":"AAAA,iCAAiC;AACjC;IAAAA;IACAC,CAACA;AAAAD,IAADA,kBAACA;AAADA,CAACA,IAAA"}
+{"version":3,"file":"DiceRoller.js","sourceRoot":"","sources":["DiceRoller.ts"],"names":["DiceRoller","DiceRoller.constructor"],"mappings":"AAAA,iCAAiC;AACjC;IAIIA,oBAAYA,OAAoBA;QAC5BC,IAAIA,CAACA,OAAOA,GAAGA,OAAOA;QACtBA,IAAIA,CAACA,QAAQA,GAAGA,IAAIA,KAAKA,CAAQA,CAACA;IACtCA,CAACA;IACLD,kBAACA;AAADA,CAACA,IAAA"}
