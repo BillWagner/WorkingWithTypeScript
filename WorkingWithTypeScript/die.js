@@ -24,6 +24,10 @@
                 return "";
         }
     };
+
+    Die.prototype.dipslayDieInContainer = function (element) {
+        element.appendChild(this.dieElement);
+    };
     return Die;
 })();
 //# sourceMappingURL=die.js.map

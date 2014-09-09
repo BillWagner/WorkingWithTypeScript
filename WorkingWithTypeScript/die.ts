@@ -31,4 +31,8 @@
                 return "";
         }
     }
+
+    public dipslayDieInContainer(element: HTMLElement) {
+        element.appendChild(this.dieElement);
+    }
 } 
