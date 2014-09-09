@@ -9,7 +9,7 @@ var DiceRollTurn = (function () {
         this.displayHTML = document.createElement("div");
 
         var span = document.createElement("span");
-        span.innerHTML = "Total roll" + this.totalValue;
+        span.innerHTML = "Total roll " + this.totalValue;
 
         this.firstDie.displayDieInContainer(this.displayHTML);
         this.secondDie.displayDieInContainer(this.displayHTML);
@@ -17,4 +17,4 @@ var DiceRollTurn = (function () {
     }
     return DiceRollTurn;
 })();
-//# sourceMappingURL=dieRollTurn.js.map
+//# sourceMappingURL=dierollturn.js.map
