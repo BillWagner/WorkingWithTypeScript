@@ -1,4 +1,5 @@
-﻿/// <reference path="iroll.ts" />
+﻿/// <reference path="dierollturn.ts" />
+/// <reference path="iroll.ts" />
 class DiceRoller {
     element: HTMLElement;
     allRolls: Array<IRoll>;

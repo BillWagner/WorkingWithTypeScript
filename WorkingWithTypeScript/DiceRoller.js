@@ -1,4 +1,5 @@
-﻿/// <reference path="iroll.ts" />
+﻿/// <reference path="dierollturn.ts" />
+/// <reference path="iroll.ts" />
 var DiceRoller = (function () {
     function DiceRoller(element) {
         this.element = element;
