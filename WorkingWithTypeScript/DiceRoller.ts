@@ -2,10 +2,15 @@
 class DiceRoller {
     element: HTMLElement;
     allRolls: Array<IRoll>;
+    timerToken: number;
 
     constructor(element: HTMLElement) {
         this.element = element;
         this.allRolls = new Array<IRoll>();
+    }
+
+    public start() {
+        this.timerToken = setInterval(() => this.onTick(), 1000);
     }
 
     private onTick() {

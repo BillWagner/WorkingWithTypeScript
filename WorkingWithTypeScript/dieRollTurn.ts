@@ -1,7 +1,7 @@
 ﻿/// <reference path="die.ts" />
 /// <reference path="iroll.ts" />
 
-class DiceRollTurn {
+class DiceRollTurn  {
     firstDie = new Die();
     secondDie = new Die();
 
