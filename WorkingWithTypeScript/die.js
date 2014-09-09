@@ -25,7 +25,7 @@
         }
     };
 
-    Die.prototype.dipslayDieInContainer = function (element) {
+    Die.prototype.displayDieInContainer = function (element) {
         element.appendChild(this.dieElement);
     };
     return Die;
