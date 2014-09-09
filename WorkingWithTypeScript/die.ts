@@ -27,6 +27,8 @@
                 return "/images/dice5.png";
             case 6:
                 return "/images/dice6.png";
+            default:
+                return 0;
         }
     }
 } 
