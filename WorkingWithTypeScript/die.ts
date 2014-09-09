@@ -32,7 +32,7 @@
         }
     }
 
-    public dipslayDieInContainer(element: HTMLElement) {
+    public displayDieInContainer(element: HTMLElement) {
         element.appendChild(this.dieElement);
     }
 } 

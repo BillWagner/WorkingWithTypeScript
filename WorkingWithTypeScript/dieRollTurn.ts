@@ -15,8 +15,8 @@ class DiceRollTurn {
         var span = document.createElement("span");
         span.innerHTML = "Total roll" + this.totalValue;
 
-        this.firstDie.dipslayDieInContainer(this.displayHTML);
-        this.secondDie.dipslayDieInContainer(this.displayHTML);
+        this.firstDie.displayDieInContainer(this.displayHTML);
+        this.secondDie.displayDieInContainer(this.displayHTML);
         this.displayHTML.appendChild(span);
     }
 
