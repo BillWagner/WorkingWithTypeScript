@@ -1,4 +1,5 @@
 ﻿/// <reference path="die.ts" />
+/// <reference path="iroll.ts" />
 var DiceRollTurn = (function () {
     function DiceRollTurn() {
         this.firstDie = new Die();

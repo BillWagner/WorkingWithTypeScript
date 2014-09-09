@@ -1,4 +1,5 @@
 ﻿/// <reference path="die.ts" />
+/// <reference path="iroll.ts" />
 
 class DiceRollTurn {
     firstDie = new Die();
