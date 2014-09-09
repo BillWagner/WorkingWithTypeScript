@@ -1,6 +1,6 @@
 ﻿class Greeter {
     element: HTMLElement;
-    span: HTMLElement;
+    span: any;
     timerToken: number;
 
     constructor(element: HTMLElement) {
